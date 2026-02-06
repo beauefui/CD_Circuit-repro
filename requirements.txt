@@ -12,3 +12,5 @@ nltk
 setuptools
 einsum
 torchtyping
+pyyaml
+pytest

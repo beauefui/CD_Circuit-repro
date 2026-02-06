@@ -1,0 +1,9 @@
+seed: 42
+device: cuda:0
+output_root: /mnt/nfs/zijie/cd_circuit_output
+hf_home: /mnt/nfs/zijie/huggingface_cache
+log_level: INFO
+save:
+  save_intermediate: true
+  save_plots: true
+  save_tensors: true

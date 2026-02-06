@@ -1,0 +1,20 @@
+inherits: base.yaml
+task: greater_than
+model:
+  name: gpt2-small
+  center_unembed: true
+  center_writing_weights: true
+  fold_ln: false
+  refactor_factored_attn_matrices: true
+dataset:
+  start_year: 1000
+  end_year: 1900
+  n_samples: 128
+  balanced: true
+  eos: true
+algorithm:
+  num_at_time: 64
+  target_decomp_method: residual
+  set_irrel_to_mean: true
+experiment:
+  top_k: 50
