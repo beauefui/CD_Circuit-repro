@@ -47,3 +47,8 @@ venv.bak/
 outputs/
 models/
 data/
+
+# NPM
+node_modules/
+package-lock.json
+package.json
